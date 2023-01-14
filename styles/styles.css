@@ -405,7 +405,7 @@ i {
 
 .up::before {
     content: "";
-    background-image: url(./img/chevron-up-solid.svg);
+    background-image: url(../img/chevron-up-solid.svg);
     width: 30px;
     height: 30px;
     display: block;
