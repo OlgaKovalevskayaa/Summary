@@ -35,6 +35,12 @@ section {
     }
 }
 
+@media screen and (max-width: 500px) {
+    section {
+        padding: 30px 40px;
+    }
+}
+
 .unordered-list {
     text-align: left;
     font-size: 1.65rem;
@@ -91,14 +97,14 @@ a {
 @media screen and (max-width: 600px) {
     .heading-two {
         font-size: 1.75rem;
-        margin-bottom: 45px;
+        margin-bottom: 35px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .heading-two {
         font-size: 1.5rem;
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
 }
 
@@ -149,7 +155,7 @@ a {
 
 .header-nav__link {
     color: rgb(87, 1, 1);
-    font-size: 1.55rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 1500px) {
@@ -169,7 +175,7 @@ a {
         margin-right: 30px;
     }
     .header {
-        padding: 40px 20px 41px;
+        padding: 10px 10px;
     }
     .header-nav {
         align-items: center;
@@ -199,8 +205,8 @@ a {
 }
 
 .about-me__heading-three {
-    margin-bottom: 30px;
-    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 .about-me__paragraf {
@@ -227,7 +233,7 @@ a {
         max-width: 600px;
         width: 100%;
         margin-right: 0px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .about-me {
         text-align: center;
@@ -288,7 +294,7 @@ a {
 
 .my-works__link {
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     display: block;
 }
 
@@ -380,7 +386,7 @@ i {
         flex-direction: column;
     }
     .footer-nav__link:not(:last-child) {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 }
 
